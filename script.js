@@ -1,0 +1,1 @@
+// Empty script placeholder – add interactive functionality if needed

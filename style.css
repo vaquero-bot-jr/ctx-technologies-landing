@@ -1,0 +1,28 @@
+/* Global variables */
+:root { --primary-color:#0066cc; font-family:Inter, sans-serif; }
+
+/* Hero section */
+.hero { position:relative; }
+.hero::after { content:""; position:absolute; inset:0; background:linear-gradient(to bottom, rgba(0,0,0,0.4),rgba(0,0,0,0.4)); pointer-events:none; }
+.hero-content { position:relative; z-index:1; padding:2rem; color:#fff; text-align:center; }
+.hero-content h1{ margin:0 0 0.5rem; font-size:2.5rem; }
+.hero-content p{ margin:0 0 1rem; font-size:1.2rem; }
+.cta { display:inline-block; padding:0.75rem 1.5rem; background:#0066cc; color:#fff; text-decoration:none; border-radius:4px; font-weight:600; }
+/* Nav CTA */
+.nav-cta{display:inline-block;padding:0.5rem 1rem;background:#0066cc;color:#fff;text-decoration:none;border-radius:4px;font-weight:600;margin-left:1rem;}
+.nav-cta:hover{background:#0055b3;}
+/* Trust section */
+.trust { padding:3rem 2rem; text-align:center; background:#fff; }
+.trust h2{ margin-bottom:1rem; color:var(--primary-color); font-size:1.5rem; }
+.trust .badges{ display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; }
+.trust .badges img{ height:60px; object-fit:contain; margin:0.5rem; }
+/* Case Studies */
+.case-studies{padding:3rem 2rem;text-align:center;background:#fafafa;}
+.case-studies h2{margin-bottom:0.5rem;color:var(--primary-color);}
+.card-grid{display:flex;flex-wrap:wrap;gap:2rem;justify-content:center;}
+.case-card{background:#fff;padding:1.5rem;border-radius:8px;flex:1 1 200px;box-shadow:0 2px 6px rgba(0,0,0,0.1);}
+/* Why Choose Us */
+.why-us { padding:4rem 2rem; text-align:center; background:#f2f4f8; }
+.why-us h2{color:var(--primary-color);margin-bottom:1rem;}
+.why-us ul{list-style:none;margin:0 auto;padding:0;max-width:500px;}
+.why-us li{margin-bottom:.6rem;color:#444;}
