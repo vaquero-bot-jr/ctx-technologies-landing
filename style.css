@@ -29,4 +29,11 @@
 .why-us { padding:4rem 2rem; text-align:center; background:#f2f4f8; }
 .why-us h2{color:var(--primary-color);margin-bottom:1rem;}
 .why-us ul{list-style:none;margin:0 auto;padding:0;max-width:500px;}
-.why-us li{margin-bottom:.6rem;color:#444;}
+
+/* Restrict hero content width */
+.hero-content{max-width:800px;margin:auto;}
+/* Adjust subtitle size on smaller screens */
+@media (max-width:480px){
+  .hero-subtitle{font-size:1.1rem;}
+  .hero-content h1{font-size:2rem;}
+}
